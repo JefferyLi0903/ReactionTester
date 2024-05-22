@@ -1,0 +1,45 @@
+#include "init.h"
+
+// Variables Declaration
+XScuGic INTCInst;
+int Intr_flag;
+
+int IntrInitFunction(u16 DeviceId)
+{
+	XScuGic_Config *IntcConfig;
+	int Status ;
+
+	//Check device id
+	IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+	//Initialization
+	Status = XScuGic_CfgInitialize(&INTCInst, IntcConfig, IntcConfig->CpuBaseAddress) ;
+	if (Status != XST_SUCCESS)
+		return XST_FAILURE ;
+
+
+	XScuGic_SetPriorityTriggerType(&INTCInst, INTC_INTERRUPT_ID,
+			0xA0, 0x3);
+
+	Status = XScuGic_Connect(&INTCInst, INTC_INTERRUPT_ID,
+			(Xil_ExceptionHandler)IntrHandler,
+			(void *)NULL) ;
+	if (Status != XST_SUCCESS)
+		return XST_FAILURE ;
+
+	XScuGic_Enable(&INTCInst, INTC_INTERRUPT_ID) ;
+
+
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			(Xil_ExceptionHandler)XScuGic_InterruptHandler,
+			&INTCInst);
+	Xil_ExceptionEnable();
+
+
+	return XST_SUCCESS ;
+}
+
+void IntrHandler(void *CallbackRef)
+{
+	print("Successfully Enter Handler");
+	Intr_flag = 1;
+}

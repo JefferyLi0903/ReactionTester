@@ -1,0 +1,219 @@
+timestamp=[2024-05-18 20:26:49], mode=WORKBENCH_START, duration=0:00:02.921, duration_ms=2921, data={}
+timestamp=[2024-05-18 20:26:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.014, duration_ms=14, data={}
+timestamp=[2024-05-18 20:26:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.286, duration_ms=286, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-05-18 20:27:55], mode=APP_CREATION, duration=0:00:06.549, duration_ms=6549, data={name=ReactionTester, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=Lab_design_wrapper, application_type=application}
+timestamp=[2024-05-18 20:28:08], mode=PLATFORM_GENERATION, duration=0:00:05.910, duration_ms=5910, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:28:09], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 20:28:21], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 20:28:26], mode=BUILD, duration=0:00:04.674, duration_ms=4674, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 20:31:01], mode=WORKBENCH_START, duration=0:00:02.828, duration_ms=2828, data={}
+timestamp=[2024-05-18 20:31:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.008, duration_ms=8, data={}
+timestamp=[2024-05-18 20:31:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.419, duration_ms=419, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-18 20:33:28], mode=WORKBENCH_START, duration=0:00:03.046, duration_ms=3046, data={}
+timestamp=[2024-05-18 20:33:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2024-05-18 20:33:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.397, duration_ms=397, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-18 20:33:44], mode=PLATFORM_GENERATION, duration=0:00:04.666, duration_ms=4666, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:33:48], mode=PLATFORM_GENERATION, duration=0:00:03.932, duration_ms=3932, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:33:48], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-18 20:33:49], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-18 20:34:02], mode=PLATFORM_GENERATION, duration=0:00:03.928, duration_ms=3928, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:34:08], mode=PLATFORM_GENERATION, duration=0:00:05.735, duration_ms=5735, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:38:42], mode=PLATFORM_GENERATION, duration=0:00:04.587, duration_ms=4587, data={name=Lab_design_wrapper}
+timestamp=[2024-05-18 20:38:57], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 20:39:02], mode=BUILD, duration=0:00:04.677, duration_ms=4677, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 21:06:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.011, duration_ms=11, data={}
+timestamp=[2024-05-18 21:06:17], mode=WORKBENCH_START, duration=0:00:03.458, duration_ms=3458, data={}
+timestamp=[2024-05-18 21:06:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.798, duration_ms=798, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-18 21:06:36], mode=BUILD, duration=0:00:00.135, duration_ms=135, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-18 21:06:41], mode=BUILD, duration=0:00:04.626, duration_ms=4626, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-19 16:02:17], mode=WORKBENCH_START, duration=0:00:04.365, duration_ms=4365, data={}
+timestamp=[2024-05-19 16:02:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.015, duration_ms=15, data={}
+timestamp=[2024-05-19 16:02:17], mode=WORKBENCH_UI_INIT, duration=0:00:00.478, duration_ms=478, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-20 00:00:00], mode=WORKBENCH_START, duration=0:00:03.399, duration_ms=3399, data={}
+timestamp=[2024-05-20 00:00:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.011, duration_ms=11, data={}
+timestamp=[2024-05-20 00:00:01], mode=WORKBENCH_UI_INIT, duration=0:00:00.405, duration_ms=405, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-20 00:08:08], mode=PLATFORM_GENERATION, duration=0:00:07.563, duration_ms=7563, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:08:12], mode=PLATFORM_GENERATION, duration=0:00:04.134, duration_ms=4134, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:08:13], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:08:18], mode=PLATFORM_GENERATION, duration=0:00:04.082, duration_ms=4082, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:08:18], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:08:23], mode=BUILD, duration=0:00:04.674, duration_ms=4674, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:30:52], mode=PLATFORM_GENERATION, duration=0:00:07.588, duration_ms=7588, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:30:52], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:36:21], mode=PLATFORM_GENERATION, duration=0:00:04.080, duration_ms=4080, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:36:21], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:37:20], mode=WORKBENCH_START, duration=0:00:02.698, duration_ms=2698, data={}
+timestamp=[2024-05-20 00:37:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.008, duration_ms=8, data={}
+timestamp=[2024-05-20 00:37:21], mode=WORKBENCH_UI_INIT, duration=0:00:00.496, duration_ms=496, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-20 00:37:36], mode=PLATFORM_GENERATION, duration=0:00:04.715, duration_ms=4715, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:37:36], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:37:36], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:37:44], mode=PLATFORM_GENERATION, duration=0:00:08.000, duration_ms=8000, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:37:45], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:39:03], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:39:12], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:39:18], mode=PLATFORM_GENERATION, duration=0:00:03.930, duration_ms=3930, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:39:19], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:39:19], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:39:24], mode=PLATFORM_GENERATION, duration=0:00:05.741, duration_ms=5741, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:39:25], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:41:06], mode=PLATFORM_GENERATION, duration=0:00:03.982, duration_ms=3982, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:41:06], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:41:07], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-20 00:41:12], mode=PLATFORM_GENERATION, duration=0:00:05.640, duration_ms=5640, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 00:41:13], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 00:41:18], mode=BUILD, duration=0:00:04.675, duration_ms=4675, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 14:26:55], mode=WORKBENCH_START, duration=0:00:03.413, duration_ms=3413, data={}
+timestamp=[2024-05-20 14:26:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.015, duration_ms=15, data={}
+timestamp=[2024-05-20 14:26:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.447, duration_ms=447, data={editors_count=6, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-20 14:27:45], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 14:27:50], mode=BUILD, duration=0:00:04.676, duration_ms=4676, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-20 19:59:54], mode=WORKBENCH_START, duration=0:00:03.398, duration_ms=3398, data={}
+timestamp=[2024-05-20 19:59:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.018, duration_ms=18, data={}
+timestamp=[2024-05-20 19:59:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.428, duration_ms=428, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-20 20:01:13], mode=PLATFORM_GENERATION, duration=0:00:04.765, duration_ms=4765, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 20:49:50], mode=PLATFORM_GENERATION, duration=0:00:04.534, duration_ms=4534, data={name=Lab_design_wrapper}
+timestamp=[2024-05-20 20:49:56], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 10:27:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.013, duration_ms=13, data={}
+timestamp=[2024-05-21 10:27:35], mode=WORKBENCH_START, duration=0:00:03.525, duration_ms=3525, data={}
+timestamp=[2024-05-21 10:27:36], mode=WORKBENCH_UI_INIT, duration=0:00:00.594, duration_ms=594, data={editors_count=5, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-21 11:54:03], mode=PLATFORM_GENERATION, duration=0:00:03.990, duration_ms=3990, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 11:54:05], mode=BUILD, duration=0:00:00.821, duration_ms=821, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 11:54:54], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 11:55:06], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 11:55:07], mode=BUILD, duration=0:00:00.163, duration_ms=163, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 11:55:19], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 11:55:21], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 11:55:58], mode=PLATFORM_GENERATION, duration=0:00:03.986, duration_ms=3986, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 11:55:58], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 11:55:58], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 11:56:06], mode=PLATFORM_GENERATION, duration=0:00:08.343, duration_ms=8343, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 11:56:07], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:01:23], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:02:51], mode=PLATFORM_GENERATION, duration=0:00:03.932, duration_ms=3932, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 12:02:51], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 12:02:51], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-21 12:03:00], mode=PLATFORM_GENERATION, duration=0:00:05.787, duration_ms=5787, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 12:03:01], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:04:51], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:11:48], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:12:42], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:19:30], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:20:00], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:20:30], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:20:43], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:52:27], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:53:34], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:54:05], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:55:44], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 12:56:08], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:00:29], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:17:29], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:17:55], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:18:11], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:18:47], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:19:34], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:21:00], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:21:23], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:21:54], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:22:32], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 13:22:37], mode=BUILD, duration=0:00:04.675, duration_ms=4675, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 18:07:13], mode=WORKBENCH_START, duration=0:00:03.388, duration_ms=3388, data={}
+timestamp=[2024-05-21 18:07:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.012, duration_ms=12, data={}
+timestamp=[2024-05-21 18:07:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.548, duration_ms=548, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-21 19:08:57], mode=WORKBENCH_START, duration=0:00:03.090, duration_ms=3090, data={}
+timestamp=[2024-05-21 19:08:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.010, duration_ms=10, data={}
+timestamp=[2024-05-21 19:08:57], mode=WORKBENCH_UI_INIT, duration=0:00:00.367, duration_ms=367, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-21 19:45:58], mode=PLATFORM_GENERATION, duration=0:00:08.878, duration_ms=8878, data={name=Lab_design_wrapper}
+timestamp=[2024-05-21 19:46:02], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-21 19:46:07], mode=BUILD, duration=0:00:04.775, duration_ms=4775, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 10:04:26], mode=WORKBENCH_START, duration=0:00:03.465, duration_ms=3465, data={}
+timestamp=[2024-05-22 10:04:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.016, duration_ms=16, data={}
+timestamp=[2024-05-22 10:04:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.532, duration_ms=532, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Lab_design_wrapper,ReactionTester,ReactionTester_system,RemoteSystemsTempFiles}
+timestamp=[2024-05-22 11:02:39], mode=PLATFORM_GENERATION, duration=0:00:04.765, duration_ms=4765, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 11:37:18], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 11:37:23], mode=BUILD, duration=0:00:04.677, duration_ms=4677, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 11:58:05], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 12:01:24], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:02:06], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:02:31], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:04:51], mode=PLATFORM_GENERATION, duration=0:00:03.984, duration_ms=3984, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 12:04:51], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 12:04:51], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ReactionTester_system, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 12:04:59], mode=PLATFORM_GENERATION, duration=0:00:08.019, duration_ms=8019, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 12:05:00], mode=BUILD, duration=0:00:00.214, duration_ms=214, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:05:00], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester_system, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 12:05:05], mode=BUILD, duration=0:00:04.673, duration_ms=4673, data={name=ReactionTester_system, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:06:20], mode=PLATFORM_GENERATION, duration=0:00:05.133, duration_ms=5133, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 12:06:20], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 12:06:20], mode=BUILD, duration=0:00:00.113, duration_ms=113, data={name=ReactionTester_system, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 12:06:26], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 12:06:36], mode=PLATFORM_GENERATION, duration=0:00:05.741, duration_ms=5741, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 12:06:37], mode=BUILD, duration=0:00:00.213, duration_ms=213, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:06:50], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 12:06:55], mode=BUILD, duration=0:00:04.678, duration_ms=4678, data={name=ReactionTester_system, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:43:51], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:44:03], mode=PLATFORM_GENERATION, duration=0:00:03.935, duration_ms=3935, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 18:44:03], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 18:44:03], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester_system, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 18:44:09], mode=PLATFORM_GENERATION, duration=0:00:05.686, duration_ms=5686, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 18:44:10], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:50:46], mode=PLATFORM_GENERATION, duration=0:00:03.932, duration_ms=3932, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 18:50:46], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 18:50:46], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester_system, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 18:50:52], mode=PLATFORM_GENERATION, duration=0:00:05.735, duration_ms=5735, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 18:50:53], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:50:58], mode=BUILD, duration=0:00:04.673, duration_ms=4673, data={name=ReactionTester_system, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:51:03], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:51:08], mode=BUILD, duration=0:00:04.675, duration_ms=4675, data={name=ReactionTester_system, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 18:51:14], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 18:51:14], mode=BUILD, duration=0:00:00.267, duration_ms=267, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 19:07:42], mode=PLATFORM_GENERATION, duration=0:00:03.939, duration_ms=3939, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 19:07:42], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 19:07:47], mode=PLATFORM_GENERATION, duration=0:00:05.739, duration_ms=5739, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 19:07:48], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 19:07:52], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 19:07:52], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 21:13:31], mode=PLATFORM_GENERATION, duration=0:00:04.586, duration_ms=4586, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:13:49], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 21:13:56], mode=BUILD, duration=0:00:04.674, duration_ms=4674, data={name=ReactionTester_system, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 21:17:45], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:27:22], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:27:26], mode=BUILD, duration=0:00:03.929, duration_ms=3929, data={name=ReactionTester_system, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:27:35], mode=PLATFORM_GENERATION, duration=0:00:03.932, duration_ms=3932, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:27:35], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 21:27:44], mode=PLATFORM_GENERATION, duration=0:00:08.247, duration_ms=8247, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:27:45], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:27:49], mode=PLATFORM_GENERATION, duration=0:00:03.983, duration_ms=3983, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:27:49], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 21:27:49], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester_system, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 21:28:08], mode=PLATFORM_GENERATION, duration=0:00:05.689, duration_ms=5689, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:28:09], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:28:57], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:31:59], mode=PLATFORM_GENERATION, duration=0:00:03.933, duration_ms=3933, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:31:59], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 21:32:05], mode=PLATFORM_GENERATION, duration=0:00:05.786, duration_ms=5786, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:32:06], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:32:59], mode=PLATFORM_GENERATION, duration=0:00:03.982, duration_ms=3982, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:32:59], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester, configuration=Debug, clean_build=true}
+timestamp=[2024-05-22 21:33:05], mode=PLATFORM_GENERATION, duration=0:00:05.755, duration_ms=5755, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 21:33:06], mode=BUILD, duration=0:00:00.220, duration_ms=220, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:39:21], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 21:39:24], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-22 21:39:24], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 22:10:29], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:11:12], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:11:45], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:11:49], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 22:12:09], mode=BUILD, duration=0:00:00.168, duration_ms=168, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:12:10], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 22:12:57], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:12:59], mode=BUILD, duration=0:00:00.167, duration_ms=167, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 22:15:39], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ReactionTester, configuration=Debug, clean_build=false}
+timestamp=[2024-05-22 22:15:41], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ReactionTester, configuration=Release, clean_build=false}
+timestamp=[2024-05-22 22:22:10], mode=PLATFORM_GENERATION, duration=0:00:04.589, duration_ms=4589, data={name=Lab_design_wrapper}
+timestamp=[2024-05-22 23:10:10], mode=PLATFORM_GENERATION, duration=0:00:04.590, duration_ms=4590, data={name=Lab_design_wrapper}
+timestamp=[2024-05-23 00:12:39], mode=PLATFORM_GENERATION, duration=0:00:03.984, duration_ms=3984, data={name=Lab_design_wrapper}
+timestamp=[2024-05-23 00:12:43], mode=PLATFORM_GENERATION, duration=0:00:03.930, duration_ms=3930, data={name=Lab_design_wrapper}
+timestamp=[2024-05-23 00:12:43], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ReactionTester, configuration=Release, clean_build=true}
+timestamp=[2024-05-23 00:12:43], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ReactionTester_system, configuration=Release, clean_build=true}

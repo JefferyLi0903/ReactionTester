@@ -1,0 +1,8 @@
+00:12:43 **** Clean-only build of configuration Release for project ReactionTester_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
+
+00:12:43 Build Finished (took 115ms)
+

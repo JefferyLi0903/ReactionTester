@@ -1,0 +1,7 @@
+00:12:43 **** Clean-only build of configuration Release for project ReactionTester ****
+make clean 
+rm -rf ./src/helloworld.o ./src/init.o ./src/platform.o ./src/helloworld.d ./src/init.d ./src/platform.d ReactionTester.elf.size  ReactionTester.elf
+ 
+
+00:12:43 Build Finished (took 116ms)
+

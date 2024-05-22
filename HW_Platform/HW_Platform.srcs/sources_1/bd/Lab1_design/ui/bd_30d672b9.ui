@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.29125",
+   "Default View_TopLeft":"-197,-665",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 5 -x 1470 -y -160 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 5 -x 1470 -y -140 -defaultsOSRD
+preplace port port-id_start_button -pg 1 -lvl 0 -x -40 -y -450 -defaultsOSRD
+preplace port port-id_confirm_button -pg 1 -lvl 0 -x -40 -y -470 -defaultsOSRD
+preplace port port-id_hint -pg 1 -lvl 5 -x 1470 -y -250 -defaultsOSRD
+preplace port port-id_pl_rstn -pg 1 -lvl 0 -x -40 -y -420 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -x 500 -y -110 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 4 -x 1290 -y -410 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 3 -x 920 -y -260 -defaultsOSRD
+preplace inst TesterHW_0 -pg 1 -lvl 1 -x 140 -y -420 -defaultsOSRD
+preplace netloc TesterHW_0_hint 1 1 4 270J -400 NJ -400 1110J -250 NJ
+preplace netloc TesterHW_0_irq 1 1 1 260 -410n
+preplace netloc confirm_button_0_1 1 0 1 -20 -470n
+preplace netloc pl_rstn_0_1 1 0 1 N -420
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 -10 -220 270 -220 730 -370 1140
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 2 1 740 -280n
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 0 4 20 -260 270J -390 NJ -390 1130
+preplace netloc start_button_0_1 1 0 1 -10 -460n
+preplace netloc processing_system7_0_DDR 1 2 3 NJ -160 N -160 N
+preplace netloc processing_system7_0_FIXED_IO 1 2 3 NJ -140 N -140 N
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 2 710J -410 1100
+preplace netloc ps7_0_axi_periph_M00_AXI 1 0 5 0 -280 NJ -280 700J -380 1120J -270 1450
+preplace netloc ps7_0_axi_periph_M01_AXI 1 0 5 10 -270 NJ -270 720J -360 1100J -260 1440
+levelinfo -pg 1 -40 140 500 920 1290 1470
+pagesize -pg 1 -db -bbox -sgen -200 -560 1590 760
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_ps7_cnt":"1"
+}

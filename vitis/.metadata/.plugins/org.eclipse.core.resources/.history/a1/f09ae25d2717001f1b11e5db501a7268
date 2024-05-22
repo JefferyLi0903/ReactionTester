@@ -1,0 +1,21 @@
+#ifndef __INIT_H_
+#define __INIT_H_
+
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xparameters.h"
+
+#define INTC_DEVICE_ID		XPAR_SCUGIC_SINGLE_DEVICE_ID
+#define TESTERHW_DEVICE_ID  XPAR_TESTERHW_0_DEVICE_ID
+#define INTC_INTERRUPT_ID   XPAR_FABRIC_TESTERHW_0_IRQ_INTR
+
+// Variables Declaration
+XScuGic INTCInst;
+int Intr_flag;
+int Status;
+
+// Functions Declaration
+int IntrInitFunction(u16 DeviceId);
+void IntrHandler(void *InstancePtr);
+
+#endif

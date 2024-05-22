@@ -1,0 +1,3975 @@
+!SESSION 2024-05-22 10:04:19.144 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/jefferyli/Project/ReactionTester/vitis/.metadata/.bak_0.log
+Created Time: 2024-05-22 22:15:39.511
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 22:15:39.511
+!MESSAGE Generating MD5 hash for file: /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:39.512
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:39.512
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-134: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.076
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.077
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.077
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.078
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 22:15:41.078
+!MESSAGE Generating MD5 hash for file: /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.079
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:15:41.079
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/sw/Lab_design_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-140: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:21:58.144
+!MESSAGE XSCT Command: [platform read {/home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/platform.spr}], Thread: Worker-135: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:21:58.940
+!MESSAGE XSCT command with result: [platform read {/home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-135: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:00.861
+!MESSAGE XSCT Command: [platform config -updatehw {/home/jefferyli/Project/ReactionTester/HW_Platform/Lab_design_wrapper.xsa}], Thread: Worker-139: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:02.486
+!MESSAGE XSCT command with result: [platform config -updatehw {/home/jefferyli/Project/ReactionTester/HW_Platform/Lab_design_wrapper.xsa}], Result: [null, ]. Thread: Worker-139: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:13.879
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:13.896
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:13.896
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:14.753
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:14.754
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:14.755
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Wed May 22 21:07:22 2024",
+"vivado_version": "2022.2",
+"part": "xc7z020clg400-2",
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:16.100
+!MESSAGE XSCT Command: [disconnect tcfchan#45], Thread: Thread-2074
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:16.102
+!MESSAGE XSCT command with result: [disconnect tcfchan#45], Result: [null, ]. Thread: Thread-2074
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:17.113
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:17.114
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:17.114
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:17.120
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:17.121
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.593
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.608
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.612
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"TesterHW_0": {"hier_name": "TesterHW_0",
+"type": "TesterHW",
+"version": "1.2",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.613
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.615
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.615
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.617
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"TesterHW_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.618
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.622
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"TesterHW_0_S00_AXI": {"name": "TesterHW_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"TesterHW_0_S_AXI_INTR": {"name": "TesterHW_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_INTR",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.622
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.622
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.623
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.624
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.624
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.624
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.624
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.625
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.625
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.627
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"TesterHW_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.627
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.631
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"TesterHW_0_S00_AXI": {"name": "TesterHW_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"TesterHW_0_S_AXI_INTR": {"name": "TesterHW_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_INTR",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.631
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.632
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.632
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.632
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.632
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.633
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.634
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.634
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.634
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, TesterHW_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.634
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa bit], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.635
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa bit], Result: [null, Lab_design_wrapper.bit]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.635
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.638
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#47]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.638
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.644
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.645
+!MESSAGE XSCT Command: [version -server], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.645
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.645
+!MESSAGE XSCT Command: [version], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.645
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.645
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.647
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.647
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.653
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.653
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.655
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.656
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.661
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.662
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.664
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.664
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.670
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.670
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.672
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.672
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.678
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.678
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.680
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.680
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.686
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.686
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.688
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.688
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.694
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.694
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.700
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.700
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.700
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.701
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.705
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.705
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.766
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:19.767
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.771
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.777
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.782
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.782
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.788
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.788
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.800
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:22.800
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.194
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.204
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.208
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.208
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.222
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_20]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.223
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.223
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.223
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.226
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.226
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.227
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.227
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.348
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.348
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.351
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.351
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.354
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.354
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.538
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.538
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.559
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.562
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.566
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.566
+!MESSAGE XSCT Command: [con], Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:22:26.574
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-143: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 22:22:26.574
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '19'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:26.749
+!MESSAGE XSCT Command: [disconnect tcfchan#47], Thread: Thread-2150
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:26.750
+!MESSAGE XSCT command with result: [disconnect tcfchan#47], Result: [null, ]. Thread: Thread-2150
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.751
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.754
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#48]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.754
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.759
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.759
+!MESSAGE XSCT Command: [version -server], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.760
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.760
+!MESSAGE XSCT Command: [version], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.760
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.760
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.762
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.762
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.768
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.768
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.772
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.772
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.778
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.778
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.780
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.780
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.786
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.786
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.789
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.789
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.795
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.795
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.797
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.797
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.803
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.803
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.805
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.805
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.811
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.811
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.817
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.817
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.818
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.818
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.822
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.822
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.883
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:27.883
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.885
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.890
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.893
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.893
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.899
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.900
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.912
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:30.912
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.306
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.310
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.315
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.315
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.318
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_20]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.318
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.318
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.318
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.322
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.322
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.322
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.322
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.445
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.445
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.447
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.447
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.451
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.451
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.634
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.634
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.655
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.659
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.662
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.662
+!MESSAGE XSCT Command: [con], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:23:34.670
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 22:23:34.670
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '20'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:38.801
+!MESSAGE XSCT Command: [disconnect tcfchan#48], Thread: Thread-2200
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:38.803
+!MESSAGE XSCT command with result: [disconnect tcfchan#48], Result: [null, ]. Thread: Thread-2200
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.803
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.806
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#49]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.807
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.812
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.812
+!MESSAGE XSCT Command: [version -server], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.812
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.813
+!MESSAGE XSCT Command: [version], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.813
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.813
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.815
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.815
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.821
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.821
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.823
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.823
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.829
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.829
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.831
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.831
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.837
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.839
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.839
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.844
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.845
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.847
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.847
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.852
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.852
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.854
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.854
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.860
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.860
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.866
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.866
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.867
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.867
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.871
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.871
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.926
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:39.927
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.929
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.936
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.939
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.940
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.946
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.946
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.958
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:42.958
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.352
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.361
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.365
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.365
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.368
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_20]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.368
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.369
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.369
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.372
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.372
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.372
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.372
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.492
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.493
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.495
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.495
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.498
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.499
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.686
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.687
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.708
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.710
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.714
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.714
+!MESSAGE XSCT Command: [con], Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 22:26:46.722
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-140: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 22:26:46.722
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '21'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:09:56.331
+!MESSAGE XSCT Command: [platform read {/home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/platform.spr}], Thread: Worker-149: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:09:57.229
+!MESSAGE XSCT command with result: [platform read {/home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-149: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:09:59.712
+!MESSAGE XSCT Command: [platform config -updatehw {/home/jefferyli/Project/ReactionTester/HW_Platform/Lab_design_wrapper.xsa}], Thread: Worker-152: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:10:01.205
+!MESSAGE XSCT command with result: [platform config -updatehw {/home/jefferyli/Project/ReactionTester/HW_Platform/Lab_design_wrapper.xsa}], Result: [null, ]. Thread: Worker-152: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:23.567
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:23.584
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:23.585
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:24.359
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:24.359
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:24.360
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Wed May 22 23:07:49 2024",
+"vivado_version": "2022.2",
+"part": "xc7z020clg400-2",
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:33.016
+!MESSAGE XSCT Command: [disconnect tcfchan#49], Thread: Thread-2261
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:33.018
+!MESSAGE XSCT command with result: [disconnect tcfchan#49], Result: [null, ]. Thread: Thread-2261
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:34.031
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:34.032
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:34.032
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:34.039
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:34.040
+!MESSAGE XSCT Command: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit} -quiet], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.276
+!MESSAGE XSCT command with result: [::hsi::generate_target {psinit} [ ::hsi::get_cells -filter { CONFIGURABLE == true } -hierarchical] -dir {/home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit} -quiet], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.294
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.298
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"TesterHW_0": {"hier_name": "TesterHW_0",
+"type": "TesterHW",
+"version": "1.2",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_50M": {"hier_name": "rst_ps7_0_50M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.298
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.300
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666666",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "50",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333333",
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.300
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.303
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"TesterHW_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.303
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.307
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, {"TesterHW_0_S00_AXI": {"name": "TesterHW_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"TesterHW_0_S_AXI_INTR": {"name": "TesterHW_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_INTR",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.307
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.307
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.307
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.308
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.308
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.308
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.308
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.308
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.309
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.309
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.309
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.309
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.309
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.311
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.311
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.314
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"TesterHW_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.315
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.318
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1], Result: [null, {"TesterHW_0_S00_AXI": {"name": "TesterHW_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"TesterHW_0_S_AXI_INTR": {"name": "TesterHW_0",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S_AXI_INTR",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x3FFFFFFF",
+"size": "1072693248",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.319
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.319
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.319
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.321
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.321
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa ps7_cortexa9_0], Result: [null, TesterHW_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_1 ps7_usb_0 ps7_xadc_0]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.321
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa bit], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.321
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa bit], Result: [null, Lab_design_wrapper.bit]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.321
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.323
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#51]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.323
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT Command: [version -server], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT Command: [version], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.328
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.330
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.330
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.336
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.336
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.338
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.338
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.344
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.344
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.346
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.346
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.352
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.352
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.354
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.360
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.360
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.362
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.362
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.368
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.368
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.370
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.370
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.375
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.375
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.381
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.381
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.382
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.382
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.386
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.386
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.442
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:36.442
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.445
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.451
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.453
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.453
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.460
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.460
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.472
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:39.472
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.866
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.875
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.879
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.879
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.893
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_24]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.893
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.893
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.894
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.897
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.897
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.897
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:42.897
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.018
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.019
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.021
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.021
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.024
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.025
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.212
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.212
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.233
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.237
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.241
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.241
+!MESSAGE XSCT Command: [con], Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:36:43.248
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-154: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 23:36:43.248
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '22'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:26.155
+!MESSAGE XSCT Command: [disconnect tcfchan#51], Thread: Thread-2337
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:26.156
+!MESSAGE XSCT command with result: [disconnect tcfchan#51], Result: [null, ]. Thread: Thread-2337
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.156
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.161
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#52]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.161
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.166
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.166
+!MESSAGE XSCT Command: [version -server], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.166
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.167
+!MESSAGE XSCT Command: [version], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.167
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.167
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.169
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.169
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.175
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.175
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.177
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.177
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.183
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.183
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.185
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.185
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.191
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.191
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.194
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.194
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.199
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.199
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.201
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.202
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.207
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.209
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.209
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.215
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.215
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.221
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.221
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.221
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.221
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.226
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.226
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.282
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:27.282
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.285
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.291
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.294
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.294
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.300
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.301
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.314
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:30.314
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.709
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.716
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.721
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.721
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.724
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_24]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.724
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.724
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.724
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.727
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.727
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.728
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.728
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.850
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.851
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.853
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.853
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.856
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:33.856
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.040
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.040
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.061
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.066
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.069
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.069
+!MESSAGE XSCT Command: [con], Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:51:34.077
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-162: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 23:51:34.077
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '23'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:56.044
+!MESSAGE XSCT Command: [disconnect tcfchan#52], Thread: Thread-2387
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:56.046
+!MESSAGE XSCT command with result: [disconnect tcfchan#52], Result: [null, ]. Thread: Thread-2387
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.046
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.049
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#53]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.049
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.054
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.054
+!MESSAGE XSCT Command: [version -server], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.055
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.055
+!MESSAGE XSCT Command: [version], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.055
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.055
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.057
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.057
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.063
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.063
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.065
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.066
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.071
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.071
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.073
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.073
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.079
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.079
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.081
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.081
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.087
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.087
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.089
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.090
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.095
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.095
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.097
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.097
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.103
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.103
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.109
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-HS1 210512180081" && level == 0}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.109
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.110
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 10000000]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.110
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.115
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.115
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.170
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:52:57.171
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.173
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.179
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.182
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-HS1 210512180081]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.182
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.188
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.188
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.200
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210512180081" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210512180081-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:00.200
+!MESSAGE XSCT Command: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.595
+!MESSAGE XSCT command with result: [fpga -file /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/bitstream/Lab_design_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.603
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.608
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.608
+!MESSAGE XSCT Command: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.611
+!MESSAGE XSCT command with result: [loadhw -hw /home/jefferyli/Project/ReactionTester/vitis/Lab_design_wrapper/export/Lab_design_wrapper/hw/Lab_design_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, Lab1_design_wrapper_24]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.611
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.611
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.611
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.614
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.614
+!MESSAGE XSCT Command: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.615
+!MESSAGE XSCT command with result: [source /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.615
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.736
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.737
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.739
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.739
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.742
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.742
+!MESSAGE XSCT Command: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.927
+!MESSAGE XSCT command with result: [dow /home/jefferyli/Project/ReactionTester/vitis/ReactionTester/Debug/ReactionTester.elf], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.927
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.948
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.951
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.954
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.954
+!MESSAGE XSCT Command: [con], Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-22 23:53:03.962
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-161: Launching Debugger_ReactionTester-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-22 23:53:03.962
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '24'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-05-23 00:12:43.982
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '14'

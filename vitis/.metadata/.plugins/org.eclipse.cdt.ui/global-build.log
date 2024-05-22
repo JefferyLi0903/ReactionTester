@@ -1,0 +1,97 @@
+
+00:12:39 Build Finished (took 3s.974ms)
+
+00:12:39 **** Clean-only build of project Lab_design_wrapper ****
+buildplatform.sh 38663 Lab_design_wrapper clean 
+XSDB Server Channel: tcfchan#55
+Cleaning the zynq_fsbl application.
+rm -rf  fsbl_hooks.o  image_mover.o  main.o  md5.o  nand.o  nor.o  pcap.o  ps7_init.o  qspi.o  rsa.o  sd.o  fsbl_handoff.o zynq
+_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a fsbl.elf *.o
+
+Cleaning the zynq_fsbl application, bsp
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_17/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v8_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/TesterHW_v1_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+Cleaning the BSP for domain  - standalone_ps7_cortexa9_0
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_17/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v5_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v4_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v8_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/TesterHW_v1_0/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+00:12:43 **** Clean-only build of configuration Release for project ReactionTester ****
+make clean 
+rm -rf ./src/helloworld.o ./src/init.o ./src/platform.o ./src/helloworld.d ./src/init.d ./src/platform.d ReactionTester.elf.size  ReactionTester.elf
+ 
+00:12:43 **** Clean-only build of configuration Release for project ReactionTester_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
