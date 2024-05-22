@@ -2441,3 +2441,4 @@ con
 23:53:03 INFO  : Launch script is exported to file '/home/jefferyli/Project/ReactionTester/vitis/ReactionTester_system/_ide/scripts/debugger_reactiontester-default.tcl'
 00:12:36 INFO  : Result from executing command 'removePlatformRepo': 
 00:12:40 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+00:18:16 INFO  : Disconnected from the channel tcfchan#53.

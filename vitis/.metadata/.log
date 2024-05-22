@@ -3973,3 +3973,9 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-161: Laun
 
 !ENTRY com.xilinx.sdk.utils 1 0 2024-05-23 00:12:43.982
 !MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '14'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-23 00:18:16.626
+!MESSAGE XSCT Command: [disconnect tcfchan#53], Thread: Thread-2448
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-05-23 00:18:16.628
+!MESSAGE XSCT command with result: [disconnect tcfchan#53], Result: [null, ]. Thread: Thread-2448
